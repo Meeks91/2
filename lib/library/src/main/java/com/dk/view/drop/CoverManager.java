@@ -48,12 +48,12 @@ public class CoverManager {
     }
 
     public void init(Activity activity) {
-        if(this.mDropCover == null) {
+     //   if(this.mDropCover == null) {
             this.mDropCover = new DropCover(activity);
             this.mWindowManager = activity.getWindowManager();
             this.mDropCover.setStatusBarHeight(this.getStatusBarHeight(activity));
             this.getStatusBarHeight(activity);
-        }
+    //    }
 
     }
 
